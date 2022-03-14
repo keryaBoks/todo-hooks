@@ -1,0 +1,26 @@
+.main-div{
+    display: flex;
+    flex-direction: row;
+    
+}
+.myInput{
+    height:40px ;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 250px;
+    
+}
+
+
+
+.buttonPlus{
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}

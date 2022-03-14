@@ -1,0 +1,50 @@
+.item-todo{
+    height: 48px;
+    margin-top: 8px;
+    padding: 0 12px;
+    display: flex;
+    width: 305px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: #ebe3ee;
+    color: blue;
+}
+
+.button-delete{
+    border: none;
+    background: #ebe3ee;
+    color: blue;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+  }
+  .circle::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    height: 7px;
+    margin-top: -5px;
+    top: 55%;
+    left: 5px;
+    right: 5px;
+    z-index: 9;
+  }
+  .circle::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    width: 7px;
+    margin-left: -5px;
+    left: 55%;
+    top: 5px;
+    bottom: 5px;
+    z-index: 9;
+  }
